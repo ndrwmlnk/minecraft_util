@@ -1,1 +1,1 @@
-# minecraft_util
+`sample_episodes.py` tanslates minerl dataset into pickle files with the following structure of sequential obervations [image_list, action_list, reward_list, image_number]. One pickle file per episode. These pickle files allow better control over sampling ot the dataset, in comparison to the original sampler. 
